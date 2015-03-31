@@ -1,5 +1,5 @@
 ﻿ul {
-	list-style-type: none;
+	list-style-type:none;
 	margin: 0;
 	padding: 0;
 }
@@ -11,18 +11,39 @@ a {
 
 li {
 	float:right;
-	align: right;
+	display:inline-block;
+	
 }
 
 img {
-	float:right;
-	margin:auto;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:250px;
+	padding-right:100px;
 	
 	
 }
 
 input {
+	float:inherit;
 	vertical-align:middle;
-	margin:auto
 	border-color:blue;
+	width:600px;
+	height:30px;
+	position:relative;
+	left: 230px;
+	
+
+}
+
+.submit1 {
+    positiion:relative;
+    border:none;
+    align:middle;
+  	left: 300px;
+  	width:96px;
+  	height:29px;
+  	top:15px;
+  		
 }
