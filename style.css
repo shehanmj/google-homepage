@@ -1,0 +1,28 @@
+﻿ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	 display: block;
+    width: 60px;
+}
+
+li {
+	float:right;
+	align: right;
+}
+
+img {
+	float:right;
+	margin:auto;
+	
+	
+}
+
+input {
+	vertical-align:middle;
+	margin:auto
+	border-color:blue;
+}
