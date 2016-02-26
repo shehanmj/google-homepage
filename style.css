@@ -11,39 +11,46 @@ a {
 
 li {
 	float:right;
-	display:inline-block;
+ 
 	
 }
 
 img {
-	float:none;
-	margin-left:auto;
-	margin-right:auto;
-	padding-left:250px;
-	padding-right:100px;
+	 
+ 
+	 
+	position:relative;
+	left:35%;
+	
+ 
 	
 	
 }
+.container {
+	padding-top:10%;
+}
+ 
 
-input {
-	float:inherit;
-	vertical-align:middle;
-	border-color:blue;
-	width:600px;
-	height:30px;
+.search {
+	Margin:auto;
 	position:relative;
-	left: 230px;
+	left:35%;
+	border-color:blue;
+	width:30%;
+	height:35px;
+	border-width:1px;
 	
 
 }
 
 .submit1 {
-    positiion:relative;
-    border:none;
-    align:middle;
-  	left: 300px;
-  	width:96px;
-  	height:29px;
-  	top:15px;
+	width:125px;
+	height:30px;
+    position:relative;
+    left: 43%;
+   	top:15px;
+   	border:none;
+   	background-color:lightgray;
   		
 }
+ 
